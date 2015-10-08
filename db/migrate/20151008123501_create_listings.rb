@@ -6,7 +6,7 @@ class CreateListings < ActiveRecord::Migration
       t.integer :price
       t.integer :bedrooms
       t.integer :bathrooms
-      t.integer :sqft
+      t.integer :sq_ft
       t.float :lat
       t.float :lng
 

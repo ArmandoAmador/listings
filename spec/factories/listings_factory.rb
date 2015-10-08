@@ -5,7 +5,7 @@ FactoryGirl.define do
     price { rand(100_000..400_000) }
     bedrooms Faker::Number.between(1, 4)
     bathrooms Faker::Number.between(1, 4)
-    sqft { rand(1000..4000) }
+    sq_ft { rand(1000..4000) }
     lat { Faker::Address.latitude }
     lng { Faker::Address.longitude }
   end

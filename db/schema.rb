@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20151008123501) do
     t.integer  "price"
     t.integer  "bedrooms"
     t.integer  "bathrooms"
-    t.integer  "sqft"
+    t.integer  "sq_ft"
     t.float    "lat"
     t.float    "lng"
     t.datetime "created_at", null: false
