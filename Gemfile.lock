@@ -74,6 +74,7 @@ GEM
     kaminari (0.16.2)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    leaflet-rails (0.7.4)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -185,6 +186,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   kaminari
+  leaflet-rails
   pg
   rails (= 4.2.4)
   rails_12factor

@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'kaminari'
 gem 'api-pagination'
+gem 'leaflet-rails'
 
 group :development, :test do
   gem 'byebug'

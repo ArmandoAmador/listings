@@ -28,7 +28,7 @@ class ListingGeojson
           street: listing.street,
           bedrooms: listing.bedrooms,
           bathrooms: listing.bathrooms,
-          sq_ft: listing.sq_ft
+          sq_ft: listing.sq_ft,
         }
       }
     end
