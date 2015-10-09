@@ -22,17 +22,18 @@ Task completed
  - API correctly filters any combination of API parameters
  - Rake task to import CSV data in the database
  - Pagination via web linking
+ -  - A map to visualize the location of each listing
 
 Wish List
- - Create a small CRUD application
+ - Add ability to create, read, update and delete listings
+ - add tooltip to listings to show important information
  - Testing CSV data import
  - Refactoring listing searcher class
- - A map to visualize the location of each listing
 
-# Development
-
-- Clone repo
-- `bundle install`
-- `rake import:listings` to import data
-- `rails s`
-- `localhost:3000/listings`
+Development
+ - Clone repo
+ - Create a database.yml file from database.yml.sample
+ - `bundle install`
+ - `rake import:listings` to import data
+ - `rails s`
+ - `localhost:3000/listings`
